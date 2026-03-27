@@ -1,8 +1,9 @@
 name: awesome_alert_pro
 description: A beautiful, customizable, and modern Flutter alert dialog package with smooth UI, animations, and multiple alert types.
 version: 1.0.0
-homepage: https://github.com/Adityashukla2000/awesome_alert
-repository: https://github.com/Adityashukla2000/awesome_alert
+homepage: https://github.com/Adityashukla2000/awesome_alert_pro
+repository: https://github.com/Adityashukla2000/awesome_alert_pro
+issue_tracker: https://github.com/Adityashukla2000/awesome_alert_pro/issues
 
 environment:
   sdk: ^3.11.3

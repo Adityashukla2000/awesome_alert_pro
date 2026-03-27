@@ -1,4 +1,4 @@
-# 🚀 Awesome Alert
+# 🚀 Awesome Alert Pro
 
 A beautiful, customizable, and modern Flutter alert dialog package with multiple alert types and an easy-to-use API.
 Designed to deliver a premium UI experience with minimal effort.
@@ -23,7 +23,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  awesome_alert: ^0.0.1
+  awesome_alert_pro: ^1.0.0
 ```
 
 Then run:
@@ -39,7 +39,7 @@ flutter pub get
 ### 🔹 1. Import Package
 
 ```dart
-import 'package:awesome_alert/awesome_alert.dart';
+import 'package:awesome_alert_pro/awesome_alert_pro.dart';
 ```
 
 ---
@@ -64,13 +64,13 @@ showAwesomeAlert(
 
 ```dart
 // ✅ Success Alert
-type: AlertType.success
+type: AlertType.success;
 
 // ❌ Error Alert
-type: AlertType.error
+type: AlertType.error;
 
 // ℹ️ Info Alert
-type: AlertType.info
+type: AlertType.info;
 ```
 
 ---
@@ -105,7 +105,7 @@ AwesomeAlert(
 
 ## 📸 Screenshots
 
-> Add your screenshots here for better visibility on pub.dev
+> Add screenshots here to improve visibility and downloads on pub.dev.
 
 ---
 
@@ -124,9 +124,9 @@ This package follows a clean and modular structure:
 ## 🤝 Contributing
 
 Contributions are welcome!
-If you’d like to improve this package:
+If you'd like to improve this package:
 
-1. Fork the repo
+1. Fork the repository
 2. Create a new branch
 3. Make your changes
 4. Submit a pull request
@@ -135,7 +135,7 @@ If you’d like to improve this package:
 
 ## 🐛 Issues & Feedback
 
-If you find any bugs or have suggestions, feel free to open an issue.
+If you find any bugs or have suggestions, feel free to open an issue on GitHub.
 
 ---
 
