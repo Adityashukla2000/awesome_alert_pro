@@ -1,4 +1,4 @@
-library awesome_alert;
+library awesome_alert_pro;
 
 export 'src/alert_type.dart';
 export 'src/alert_config.dart';
