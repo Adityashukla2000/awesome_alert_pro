@@ -32,7 +32,7 @@ Then run:
 flutter pub get
 ```
 
----
+--- 
 
 ## 🛠 Usage
 
