@@ -5,6 +5,12 @@ import 'alert_config.dart';
 import 'alert_icon.dart';
 import 'alert_buttons.dart';
 
+/// Main alert dialog widget.
+///
+/// Displays a modern alert dialog with blur background,
+/// icon, title, message and action buttons.
+///
+
 class AwesomeAlert extends StatelessWidget {
   final String title, message;
   final String positiveText, negativeText;
@@ -40,7 +46,7 @@ class AwesomeAlert extends StatelessWidget {
   Widget _content(BuildContext context, Color color, IconData icon) {
     return Container(
       decoration: BoxDecoration(
-        color: const Color(0xFF121214).withOpacity(0.9),
+        color: const Color(0xFF121214)..withValues(alpha: 0.9),
         borderRadius: BorderRadius.circular(28),
       ),
       child: Padding(
@@ -51,14 +57,18 @@ class AwesomeAlert extends StatelessWidget {
             AlertIcon(color: color, icon: icon),
             const SizedBox(height: 20),
 
-            Text(title.toUpperCase(),
-                style: const TextStyle(color: Colors.white, fontSize: 20)),
+            Text(
+              title.toUpperCase(),
+              style: const TextStyle(color: Colors.white, fontSize: 20),
+            ),
 
             const SizedBox(height: 10),
 
-            Text(message,
-                textAlign: TextAlign.center,
-                style: const TextStyle(color: Colors.white60)),
+            Text(
+              message,
+              textAlign: TextAlign.center,
+              style: const TextStyle(color: Colors.white60),
+            ),
 
             const SizedBox(height: 30),
 
@@ -84,7 +94,7 @@ class AwesomeAlert extends StatelessWidget {
                   ),
                 ),
               ],
-            )
+            ),
           ],
         ),
       ),

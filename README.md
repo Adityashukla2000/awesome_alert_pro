@@ -23,7 +23,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  awesome_alert_pro: ^1.0.0
+  awesome_alert_pro: ^1.0.1
 ```
 
 Then run:
